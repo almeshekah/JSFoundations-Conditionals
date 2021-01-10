@@ -1,8 +1,8 @@
-const firstnumber= prompt("Please enter firstnumber: ")
+const firstnumber= parseInt(prompt("Please enter firstnumber: "));
 
-const secondnumber= prompt("Please enter secondnumber: ")
+const secondnumber= parseInt( prompt("Please enter secondnumber: "));
 
-const operation= prompt("Please enter operation: ")
+const operation= prompt("Please enter operation: ");
 
 
 
@@ -16,3 +16,6 @@ else if (operation === "*"){
 console.log(`the operation is multiplication so = ${firstnumber-secondnumber }  `)}
 else if (operation === "/"){
 console.log(`the operation is division so = ${firstnumber-secondnumber }  `)}
+
+
+
