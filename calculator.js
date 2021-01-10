@@ -1,3 +1,18 @@
-// Define the numbers and the operation here
+const firstnumber= prompt("Please enter firstnumber: ")
 
-// Write if-statements here
+const secondnumber= prompt("Please enter secondnumber: ")
+
+const operation= prompt("Please enter operation: ")
+
+
+
+
+
+if (operation === "+"){
+console.log(`the operation is addition so = ${firstnumber+secondnumber }  `)}
+else if (operation === "-"){
+console.log(`the operation is subtraction so = ${firstnumber-secondnumber }  `)}
+else if (operation === "*"){
+console.log(`the operation is multiplication so = ${firstnumber-secondnumber }  `)}
+else if (operation === "/"){
+console.log(`the operation is division so = ${firstnumber-secondnumber }  `)}
